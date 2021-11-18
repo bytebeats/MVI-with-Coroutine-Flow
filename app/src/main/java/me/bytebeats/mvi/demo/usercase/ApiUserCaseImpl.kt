@@ -8,6 +8,6 @@ import me.bytebeats.mvi.demo.service.UserService
  * E-mail: happychinapc@gmail.com
  * Quote: Peasant. Educated. Worker
  */
-class ApiUserCaseImpl(private val userApiService: UserService) : ApiUserCase {
-    override suspend fun getUsers(): List<User> = userApiService.getUsers()
+class ApiUserCaseImpl(private val userService: UserService) : ApiUserCase {
+    override suspend fun getUsers(): List<User> = userService.getUsers()
 }
