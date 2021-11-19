@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 import me.bytebeats.mvi.demo.intent.MainIntent
 import me.bytebeats.mvi.demo.model.User
 import me.bytebeats.mvi.demo.retrofit.RetrofitService
-import me.bytebeats.mvi.demo.state.MainState
+import me.bytebeats.mvi.demo.viewstate.MainState
 import me.bytebeats.mvi.demo.usercase.ApiUserCaseImpl
 import me.bytebeats.mvi.demo.vm.MainViewModel
 import me.bytebeats.mvi.demo.vm.factory.MainViewModelFactory

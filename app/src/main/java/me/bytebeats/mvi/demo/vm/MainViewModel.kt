@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.consumeAsFlow
 import kotlinx.coroutines.launch
 import me.bytebeats.mvi.demo.intent.MainIntent
 import me.bytebeats.mvi.demo.repository.MainRepository
-import me.bytebeats.mvi.demo.state.MainState
+import me.bytebeats.mvi.demo.viewstate.MainState
 
 /**
  * Created by bytebeats on 2021/11/18 : 19:47

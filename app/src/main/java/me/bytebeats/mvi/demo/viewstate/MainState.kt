@@ -1,4 +1,4 @@
-package me.bytebeats.mvi.demo.state
+package me.bytebeats.mvi.demo.viewstate
 
 import me.bytebeats.mvi.demo.model.User
 
