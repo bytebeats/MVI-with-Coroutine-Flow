@@ -13,7 +13,7 @@ import me.bytebeats.mvi.demo.vm.MainViewModel
  */
 class MainViewModelFactory(private val apiUserCase: ApiUserCase) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(MainRepository::class.java)) {
+        if (modelClass.isAssignableFrom(MainViewModel::class.java)) {
             return MainViewModel(MainRepository(apiUserCase)) as T
         }
         throw IllegalArgumentException("Unknown class name")
